@@ -1,0 +1,92 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us{
+    height: 15vh;
+    color:rgba(0, 0, 0, 0.75);
+    font-size: 20PX;
+    background: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    font-family: 'PT Serif', serif !important;
+    div{
+        margin-top: 2%;
+    }
+}
+.about-main{
+    h2{
+        margin-top: 10%;
+    }
+    .story{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            padding: 10PX;
+            display: flex;
+            justify-content: space-between;
+            color: #9f9f9f;
+            font-size: 1em;
+            line-height: 1.9;
+            font-weight: 400;
+        }
+
+    }
+}
+h2{
+    font-size: 33px;
+    margin-bottom: 5%;
+    font-family: 'PT Serif', serif !important;
+}
+.our-teams{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 1.2em;
+    .team{
+        font-family: 'PT Serif', serif !important;
+        font-size: 20px;
+        font-weight: 300 !important;
+        
+    }
+     img{
+       width: 100%;
+    }
+}
+.enjoy-teams{
+    margin-top: 10%;
+    background: url(../blog-img/cta.jpg) center/cover;
+    padding: 100px;
+    
+    position: relative;
+    .text-enjoy{
+        text-align: center;
+        color: #efefef;
+    }
+}
+.enjoy-teams::after{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+width: 100%;
+}
+
+.btn{
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+}
+.btn-withe{
+    border: 1px solid white;
+
+}
