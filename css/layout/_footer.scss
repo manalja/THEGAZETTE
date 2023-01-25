@@ -1,0 +1,50 @@
+footer{
+    position: relative;
+    height: 80vh;
+    background: url(../blog-img/9.jpg) no-repeat center/cover;
+
+    .footer-menu{
+        width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .menu{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+            height: 100%;
+            color: white;
+            a{
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.767);
+                padding: 10px;
+                font-weight: 100;
+
+            }
+            h3{
+                font-family: 'PT Serif', serif !important;
+                font-size: 25px;
+
+            }
+        }
+    }
+    small{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+        color: white;
+        font-size: 12px;
+    }
+}
+.footer-menu::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+width: 100%;
+}

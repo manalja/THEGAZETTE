@@ -1,23 +1,25 @@
-body{
-    width: 1200px;
-    margin: 0 auto;
-}
 
 .about-us{
+   
     height: 15vh;
     color:rgba(0, 0, 0, 0.75);
     font-size: 20PX;
     background: #efefef;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: center;
     font-family: 'PT Serif', serif !important;
+    .about-us-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
+    }
     div{
         margin-top: 2%;
     }
 }
 .about-main{
+    width: 1200px;
+    margin: 0 auto;
     h2{
         margin-top: 10%;
     }
@@ -61,32 +63,45 @@ h2{
 .enjoy-teams{
     margin-top: 10%;
     background: url(../blog-img/cta.jpg) center/cover;
-    padding: 100px;
     
+    padding: 80px;
     position: relative;
     .text-enjoy{
+        position: relative;
+        z-index:2 ;
         text-align: center;
-        color: #efefef;
+        color: #fff;
+        P{
+            margin-left: 30%;
+            width: 50%;
+            margin-bottom: 40px;
+            line-height: 30px;
+            text-align: center;
+        }
     }
+    
 }
-.enjoy-teams::after{
+.enjoy-teams::before{
     content: '';
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.664);
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
 width: 100%;
+
 }
+
 
 .btn{
     padding: 15px 40px;
     text-decoration: none;
     font-size: 15px;
-    color: white;
+    
 
 }
-.btn-withe{
+.btn-withes{
+    color: white;
     border: 1px solid white;
 
 }
